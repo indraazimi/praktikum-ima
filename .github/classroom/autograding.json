@@ -1,14 +1,34 @@
 {
   "tests": [
     {
-      "name": "Praktikum IMA IZM",
+      "name": "Jurnal01",
       "setup": "",
-      "run": "gradle test",
+      "run": "gradle test --tests TestJurnal01",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 100
+      "points": 20
+    },
+    {
+      "name": "Jurnal02",
+      "setup": "",
+      "run": "gradle test --tests TestJurnal02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Jurnal03",
+      "setup": "",
+      "run": "gradle test --tests TestJurnal03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
     }
   ]
 }

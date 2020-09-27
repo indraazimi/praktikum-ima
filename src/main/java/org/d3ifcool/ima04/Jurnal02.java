@@ -1,8 +1,8 @@
-package org.d3ifcool.ima03;
+package org.d3ifcool.ima04;
 
 public class Jurnal02 {
 
 	public static void main(final String[] args) {
-		System.out.println("Hello world!");
+		// Kerjakan soalnya di sini
 	}
 }

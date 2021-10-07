@@ -1,15 +1,10 @@
-package org.d3ifcool.ima04;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-public class TestTP01 {
+public class TestJurnal03 {
 
     private static final String[] INPUT = {
             // Isi input di sini. Lihat contoh TestJurnal01.
@@ -19,7 +14,7 @@ public class TestTP01 {
     };
 
     @Test
-    public void testTP() {
+    public void testJurnal() {
         InputStream originalIn = System.in;
         PrintStream originalOut = System.out;
 
@@ -28,7 +23,7 @@ public class TestTP01 {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             System.setOut(new PrintStream(bos));
 
-            TP01.main(null);
+            Jurnal03.main(null);
 
             assertEquals(OUTPUT[i] + "\n", bos.toString());
         }

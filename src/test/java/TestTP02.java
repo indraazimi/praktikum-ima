@@ -1,5 +1,3 @@
-package org.d3ifcool.ima04;
-
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;

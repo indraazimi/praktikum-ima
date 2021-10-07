@@ -1,12 +1,10 @@
-package org.d3ifcool.ima04;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
-public class TestJurnal03 {
+public class TestJurnal02 {
 
     private static final String[] INPUT = {
             // Isi input di sini. Lihat contoh TestJurnal01.
@@ -25,7 +23,7 @@ public class TestJurnal03 {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             System.setOut(new PrintStream(bos));
 
-            Jurnal03.main(null);
+            Jurnal02.main(null);
 
             assertEquals(OUTPUT[i] + "\n", bos.toString());
         }
